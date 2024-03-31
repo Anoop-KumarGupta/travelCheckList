@@ -1,0 +1,35 @@
+states: internal data own by component
+-> component memory
+props: external data owned by parent component
+-> like functional parameters
+
+=>steps:
+components
+static layout
+state
+data flow
+
+=>fundamentals of state management in react
+state M: deciding when to create a pieces of state, what types of state are necessary, where to place each piece of state,
+and how data flows through the app
+Types of state:
+)local state and global state- context api and redux
+)when and where to store data
+derive state and ref
+lift state up to first common parent
+
+=> controlled elements
+piece of state
+use value
+update value (usually we do with onChange) : now we are done with controlled elements as they are the controller now
+
+In react we cannot mutate items, react is all about immutability
+
+=> derived state: that is computed from existing piece of state or from props
+
+=> two types of exports in javaScript: named export in which we have to use the exact name and second is default export
+and in react we usually use default export
+
+=>conditional rendering
+
+=> child props: making a reusable buttons
